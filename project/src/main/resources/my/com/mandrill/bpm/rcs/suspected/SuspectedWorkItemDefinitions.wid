@@ -1,0 +1,54 @@
+[
+  [
+    "name" : "InitiateQueueWorkItemHandler", 
+    "parameters" : [ 
+        "P_CIFNO" : new StringDataType(),
+        "P_ACTIONTYPE" : new StringDataType()
+    ], 
+    "results" : [ 
+        "Result" : new ObjectDataType("java.util.Map") 
+    ], 
+    "displayName" : "Initiate Queue", 
+    "category" : "Suspected",
+    "icon" : "defaultservicenodeicon.png" 
+  ],
+  
+  [
+    "name" : "EmailWorkItemHandler", 
+    "parameters" : [ 
+        "P_CIFNO" : new StringDataType()
+    ], 
+    "results" : [ 
+        "Result" : new ObjectDataType("java.util.Map") 
+    ], 
+    "displayName" : "Email", 
+    "category" : "Suspected",
+    "icon" : "defaultservicenodeicon.png" 
+  ],
+  
+  [
+    "name" : "CallListCheckWorkItemHandler", 
+    "parameters" : [ 
+        "P_CIFNO" : new StringDataType()
+    ], 
+    "results" : [ 
+        "Result" : new ObjectDataType("java.util.Map") 
+    ], 
+    "displayName" : "Call List Check", 
+    "category" : "Suspected",
+    "icon" : "defaultservicenodeicon.png" 
+  ],
+  
+  [
+    "name" : "ResetWorkItemHandler", 
+    "parameters" : [ 
+        "P_CIFNO" : new StringDataType()
+    ], 
+    "results" : [ 
+        "Result" : new ObjectDataType("java.util.Map") 
+    ], 
+    "displayName" : "Reset", 
+    "category" : "Suspected",
+    "icon" : "defaultservicenodeicon.png" 
+  ]
+]
